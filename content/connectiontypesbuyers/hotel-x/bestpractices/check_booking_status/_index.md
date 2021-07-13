@@ -8,7 +8,7 @@ alwaysopen = false
 isDirectory=false
 +++
 
-It is the client´s responsability to check the status of the booking. If you get a response without errors in Book query, it is not meaning that the booking has been confirmed. It is strictly required for an effective use of the API. 
+It is the Buyer´s responsability to check the status of the booking. Getting an error in the response (without a status being displayed) is not meaning the booking hasn't been confirmed as well as getting a response without errors in Book query, it is not meaning that the booking has been confirmed. It is strictly required for an effective use of the API. 
 
 There are 4 different status for the response of Book query:
 
